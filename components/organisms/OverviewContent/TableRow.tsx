@@ -25,7 +25,7 @@ export default function TableRow(props: TableRowProps) {
     return (
         <tr className="align-middle">
             <th scope="row">
-                <img className="float-start me-3 mb-lg-0 mb-3" src={{image}}
+                <img className="float-start me-3 mb-lg-0 mb-3" src={image}
                     width={80} height={60} alt=""/>
                 <div className="game-title-header">
                     <p className="game-title fw-medium text-start color-palette-1 m-0">{title}</p>
